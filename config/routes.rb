@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   
   get 'static_page/about'
   
+  get 'static_page/contact'
+  
   root 'applicateion#hello'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
